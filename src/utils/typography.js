@@ -3,7 +3,7 @@ import Typography from 'typography'
 const typography = new Typography({
     headerFontFamily: ['Trebuchet MS', 'Helvetica', 'sans-serif'],
 	bodyFontFamily: ['Trebuchet MS', 'Helvetica', 'sans-serif'],
-	baseFontSize: 20,
+	baseFontSize: '20px',
 	scaleRatio: 2.5,
 })
 
