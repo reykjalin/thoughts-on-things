@@ -25,6 +25,21 @@ h3 {
     font-size: 2rem;
 }
 
+code, kbd, pre, samp {
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 0.9em;
+    padding: 0.2rem 0.3rem;
+}
+
+code, kbd, samp {
+    background: rgba(0, 0, 0, 0.075);
+    border-radius: 0.1rem;
+}
+
+caption, code, code, kbd, samp {
+    background-color: #404e58;
+}
+
 *, ::before, ::after {
     box-sizing: inherit;
     word-break: break-word;
