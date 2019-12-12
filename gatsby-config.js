@@ -3,7 +3,7 @@ module.exports = {
         title: `thoughts on things`,
         author: `Kristófer Reykjalín Þorláksson`,
         description: `A collection of thoughts on various things.`,
-        siteUrl: `https://thoughts.thorlaksson.com/`,
+        siteUrl: `https://thorlaksson.com/`,
         social: {
             twitter: `kreykjalin`,
 			github: `reykjalin`,
@@ -49,7 +49,7 @@ module.exports = {
                             perPage: 100,
                             searchAndReplaceContentUrls: {
                                 sourceUrl: `https://thoughts.thorlaksson.com`,
-                                replacementUrl: `http://localhost:8000`,
+                                replacementUrl: `https://thorlaksson.com`,
                             },
                             concurrentRequests: 10,
                             includedRoutes: [
