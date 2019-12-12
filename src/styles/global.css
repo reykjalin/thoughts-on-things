@@ -1,0 +1,170 @@
+body {
+    background-color: #2f3640;
+    color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    color: #e778c6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+
+nav > ul {
+    margin-left: 0;
+}
+
+blockquote {
+    border-style: solid;
+    border-color: #e778c6;
+    border-width: 0 0 0 0.1rem;
+    padding: 0.25rem 0 0.25rem 1rem;
+}
+
+blockquote cite {
+    display: block;
+    margin: 1rem 0 0 0;
+}
+
+cite {
+    color: #9fa7ac;
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+.wp-block-columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.has-text-align-center {
+    text-align: center;
+}
+
+.wp-block-column {
+    flex-grow: 1;
+    min-width: 0;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+.wp-block-column.is-vertically-aligned-center {
+    align-self: center;
+}
+
+.has-large-font-size {
+    font-size: 1.25em;
+    line-height: 1.4;
+}
+
+.is-style-circle-mask img {
+    border-radius: 9999px;
+}
+
+hr {
+    background: linear-gradient(to left, currentColor calc(50% - 16px), currentColor calc(50% + 16px));
+    background-color: transparent !important;
+    border: none;
+    height: 0.1rem;
+    overflow: visible;
+    position: relative;
+}
+
+hr:not(.no-slash) {
+    background: linear-gradient(to left, currentColor calc(50% - 16px), transparent calc(50% - 16px), transparent calc(50% + 16px), currentColor calc(50% + 16px));
+}
+
+hr:not(.has-background) {
+    color: #9fa7ac;
+}
+
+hr:not(.no-slash)::before {
+    background: currentColor;
+    content: "";
+    display: block;
+    height: 0.8rem;
+    position: absolute;
+    top: calc(50% - 0.4rem);
+    transform: rotate(22.5deg);
+    width: 0.1rem;
+    left: calc(50% - 0.2rem);
+}
+
+hr:not(.no-slash)::after {
+    background: currentColor;
+    content: "";
+    display: block;
+    height: 0.8rem;
+    position: absolute;
+    top: calc(50% - 0.4rem);
+    transform: rotate(22.5deg);
+    width: 0.1rem;
+    right: calc(50% - 0.2rem);
+}
+
+.wp-block-spacer {
+    clear: both;
+}
+
+@media (min-width: 700px) {
+    .wp-block-columns {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .entry-content h1, .entry-content h2, .entry-content h3 {
+        margin: 3rem auto 1.5rem;
+    }
+}
+
+@media (min-width: 1000px) {
+    hr.wp-block-separator {
+        margin: 4rem auto;
+    }
+}
+
+@media (max-width: 599px) {
+    .wp-block-column {
+        flex-basis: 100% !important;
+    }
+}
+
+.site-header,
+.entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright),
+.post-header > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright) {
+    max-width: 29rem;
+    width: calc(100% - 2rem);
+}
+
+.site-header,
+.entry-content > *,
+.post-header > * {
+    margin-left: auto;
+    margin-right: auto;
+}

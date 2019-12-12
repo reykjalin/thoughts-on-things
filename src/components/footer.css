@@ -1,0 +1,7 @@
+.site-footer {
+    margin-top: 3rem;
+    max-width: 29rem;
+    width: calc(100% - 2rem);
+    margin-left: auto;
+    margin-right: auto;
+}
