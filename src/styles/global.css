@@ -183,3 +183,8 @@ hr:not(.no-slash)::after {
     margin-left: auto;
     margin-right: auto;
 }
+
+.no-bottom-margin div.wp-block-column p {
+    /* Workaround for spacing differences in p tags */
+    margin-bottom: 0;
+}
