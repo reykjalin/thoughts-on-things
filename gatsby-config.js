@@ -90,8 +90,8 @@ module.exports = {
 								return Object.assign( {}, { title: edge.node.title, date: edge.node.date }, {
 									description: edge.node.excerpt,
 									date: edge.node.date,
-									url: site.siteMetadata.siteUrl + '/' + edge.node.slug,
-									guid: site.siteMetadata.siteUrl + '/' + edge.node.slug,
+									url: site.siteMetadata.siteUrl + '/post/' + edge.node.slug,
+									guid: site.siteMetadata.siteUrl + '/post/' + edge.node.slug,
 									custom_elements: [ { 'content:encoded': edge.node.content } ],
 								} )
 							} );
