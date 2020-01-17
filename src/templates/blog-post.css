@@ -4,4 +4,7 @@
 
 .post-meta {
     color: #9fa7ac;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
 }

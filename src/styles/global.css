@@ -46,6 +46,10 @@ caption, code, code, kbd, samp {
     word-wrap: break-word;
 }
 
+ol > li {
+    margin: 0.5rem 0 0 2.5rem;
+}
+
 nav > ul {
     margin-left: 0;
 }
