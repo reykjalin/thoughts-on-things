@@ -15,7 +15,7 @@ export const Footer = () => {
 			</p>
 			<p>
 				<small>
-						© 2019 thoughts on things
+						© { new Date().getFullYear() } thoughts on things
 				</small>
 			</p>
 		</footer>
