@@ -1,6 +1,5 @@
 body {
-    background-color: #2f3640;
-    color: #ffffff;
+    background-color: #f0f0f0;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -26,18 +25,17 @@ h3 {
 }
 
 code, kbd, pre, samp {
-    font-family: "Lucida Console", Monaco, monospace;
     font-size: 0.9em;
     padding: 0.2rem 0.3rem;
 }
 
 code, kbd, samp {
-    background: rgba(0, 0, 0, 0.075);
+    background: #f8f8f8;
     border-radius: 0.1rem;
 }
 
 caption, code, code, kbd, samp {
-    background-color: #404e58;
+    background-color: #f8f8f8;
 }
 
 *, ::before, ::after {

@@ -1,8 +1,8 @@
 import Typography from 'typography'
 
 const typography = new Typography({
-    headerFontFamily: ['Trebuchet MS', 'Helvetica', 'sans-serif'],
-	bodyFontFamily: ['Trebuchet MS', 'Helvetica', 'sans-serif'],
+    headerFontFamily: ['serif'],
+	bodyFontFamily: ['serif'],
 	baseFontSize: '20px',
 	scaleRatio: 2.5,
 })
