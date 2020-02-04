@@ -13,11 +13,6 @@ export const Footer = () => {
 						This website does not track you or collect analytics.
 				</small>
 			</p>
-			<p>
-				<small>
-						© { new Date().getFullYear() } thoughts on things
-				</small>
-			</p>
 		</footer>
     )
 }
