@@ -48,7 +48,7 @@ module.exports = {
                             verboseOutput: false,
                             perPage: 100,
                             searchAndReplaceContentUrls: {
-                                sourceUrl: `https://thoughts.thorlaksson.com`,
+                                sourceUrl: `https://kreykjalin.wpcomstaging.com`,
                                 replacementUrl: `https://thorlaksson.com`,
                             },
                             concurrentRequests: 10,
