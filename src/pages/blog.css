@@ -1,0 +1,7 @@
+
+@media (min-width: 700px) {
+    div li a {
+        flex-grow: 1;
+        padding-left: 4rem;
+    }
+}
