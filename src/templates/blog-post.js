@@ -4,7 +4,7 @@ import readingTime from 'reading-time'
 
 import parse, { domToReact } from 'html-react-parser';
 import SyntaxHighlighter from 'react-syntax-highlighter';
-import { a11yLight } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+import { xcode } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -13,7 +13,7 @@ import './blog-post.css';
 const PostCode = ( { language, children } ) => (
 	<SyntaxHighlighter
 		language={ language }
-		style={ a11yLight }>
+		style={ xcode }>
 		{ children }
 	</SyntaxHighlighter>
 );
