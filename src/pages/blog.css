@@ -1,6 +1,6 @@
 
 @media (min-width: 700px) {
-    div li a {
+    .blog-post-list li a {
         flex-grow: 1;
         padding-left: 4rem;
     }

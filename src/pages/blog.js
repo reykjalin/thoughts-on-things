@@ -12,7 +12,7 @@ const BlogIndex = ({ data }) => {
             <SEO title="blog" />
 
 			<div className={ 'entry-content' }>
-				<ul style={{ listStyle: 'none' }}>
+				<ul style={{ listStyle: 'none' }} className={ 'blog-post-list' }>
 					{data.allWordpressPost.edges.map(post => (
 						<li style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', flexWrap: 'wrap' }} key={ post.node.slug }>
 							<p>{ post.node.date }</p>
