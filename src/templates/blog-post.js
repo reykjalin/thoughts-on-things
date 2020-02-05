@@ -7,7 +7,7 @@ import SEO from '../components/seo'
 import './blog-post.css';
 
 const BlogPostTemplate = ({ data }) => {
-    const postData = data.wordpressPost
+    const postData = data.wordpressPost;
     //const featuredImg = postData.featured_media ? postData.featured_media.localFile.childImageSharp.fixed : undefined;
     const stats = readingTime( postData.content );
 
@@ -16,6 +16,7 @@ const BlogPostTemplate = ({ data }) => {
             <SEO title={postData.title} description={postData.excerpt} />
 			<div className={ 'post-header' } >
 				<h1 dangerouslySetInnerHTML={{ __html: postData.title }} />
+				<div style={{ color: '#9fa7ac' }} dangerouslySetInnerHTML={{ __html: postData.excerpt }} />
 				<div className={ 'post-meta' }>
         				<p>&#9719; { stats.text }</p>
         				<p>{ postData.date }</p>
