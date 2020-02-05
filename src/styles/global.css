@@ -25,13 +25,14 @@ h3 {
 }
 
 pre {
-    overflow: auto;
-    padding: 1rem;
-    background: #f8f8f8;
     border-color: #ccc;
     border-width: 1px;
     border-style: solid;
     border-radius: .2rem;
+}
+
+pre > code {
+    background-color: inherit;
 }
 
 code, kbd, samp {
