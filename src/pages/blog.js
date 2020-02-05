@@ -14,7 +14,7 @@ const BlogIndex = ({ data }) => {
 					{data.allWordpressPost.edges.map(post => (
 						<li style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', flexWrap: 'wrap' }} key={ post.node.slug }>
 							<p>{ post.node.date }</p>
-							<Link to={`/post/${post.node.slug}`}>
+							<Link style={{ flexGrow: '1', paddingLeft: '4rem' }} to={`/post/${post.node.slug}`}>
 								<p
 									dangerouslySetInnerHTML={{
 										__html: post.node.title,
