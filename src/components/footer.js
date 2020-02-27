@@ -11,7 +11,7 @@ export const Footer = () => {
 						Made with ♥ for the web | <a href="/rss.xml">rss</a>
 						<br />
 						<br />
-						This website collects analytics via <a href="https://goatcounter.com">Goatcounter</a>.
+						This website collects analytics via <a href="https://tot.goatcounter.com">GoatCounter</a>.
 						Analytics don't use cookies, and don't collect <a href="https://en.wikipedia.org/wiki/Personal_data">PII</a>.
 				</small>
 			</p>
