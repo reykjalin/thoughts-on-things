@@ -10,7 +10,9 @@ export const Footer = () => {
 				<small>
 						Made with ♥ for the web | <a href="/rss.xml">rss</a>
 						<br />
-						This website does not track you or collect analytics.
+						<br />
+						This website collects analytics via <a href="https://goatcounter.com">Goatcounter</a>.
+						Analytics don't use cookies, and don't collect <a href="https://en.wikipedia.org/wiki/Personal_data">PII</a>.
 				</small>
 			</p>
 		</footer>
