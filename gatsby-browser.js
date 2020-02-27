@@ -1,7 +1,14 @@
 // Use global stylesheet.
 import './src/styles/global.css';
 
-const updateCount = ( path, referrer, title ) => {
+const updateCount = ( path, referrer, title, retries = 1 ) => {
+	if ( ! window.goatcounter ) {
+		if ( retries > 0 ) {
+			setTimeout( updateCount( path, referrer, title, retries - 1 ), 400 );
+			return;
+		}
+		return;
+	}
 	window.goatcounter.count( {
 		path,
 		referrer: referrer || null,
