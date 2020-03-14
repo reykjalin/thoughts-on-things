@@ -49,7 +49,7 @@ exports.createPages = async ({ graphql, actions }) => {
 	// Create site pages.
     const pages = result.data.allWordpressPage.edges
 	pages.filter( page => {
-		return 'about' === page.node.slug || 'home' === page.node.slug;
+		return 'about' === page.node.slug || 'home' === page.node.slug || 'links-of-interest' === page.node.slug;
 	} )
 		.forEach(page => {
 			createPage({
